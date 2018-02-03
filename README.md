@@ -29,6 +29,7 @@
 # 使用
 
 1. 引入 `announcement.min.css` `jquery.min.js` `announcement.min.js`
+
   ```html
   <!DOCTYPE html>
   <html>
@@ -47,11 +48,11 @@
 
 2. 在页面放置以下 dom 结构
 
-     ```html
-        <div class="announcement-panel">
-     	<div class="announcement-content"></div>
-        </div>
-     ```
+   ```html
+   <div class="announcement-panel">
+   	<div class="announcement-content"></div>
+   </div>
+   ```
 
 3. ajax 回调成功或异步事件完成后进行插件初始化，弹出公告
 
@@ -117,3 +118,9 @@
 7. `afterLoad`
 
    公告渲染之后调用此方法
+
+
+
+# License
+
+MIT

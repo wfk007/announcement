@@ -70,7 +70,6 @@ var announcement = (function(window) {
       $(".announcement-panel .announcement-content").html("");
 
       //对关闭按钮、一级标题、二级标题、文本内容进行设置
-      //对关闭按钮、一级标题、二级标题、文本内容进行设置
       var content = `<a href="#"><img src="${options.imgPath}/close.png"></a><div class="title-wrapper"><h1 class="headTitle">${options
         .data.dataMap.title}</h1><div class="subTitle">作者：<span>${options.data
         .dataMap.authorid}</span>发布时间：<span>${options.data.dataMap
