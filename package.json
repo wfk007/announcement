@@ -1,0 +1,27 @@
+{
+  "name": "announcement",
+  "version": "1.0.0",
+  "description": "公告",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "announcement"
+  ],
+  "author": "王富康",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "doiuse": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0"
+  }
+}
